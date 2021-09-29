@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planos</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background: #DCDCDC;
+            height: 100vh;
+            width: 100%;
+            color: white;
+        }
+        main.cards{
+            display: flex;
+            padding: 32px;
+        }
+        main.cards section.card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background: #353839;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            max-height: auto;
+            margin-left: 32px;
+        }
+        main.cards section.card:first-child{
+            margin-left: 0;
+        }
+
+        main.cards section.card .icon{
+            width: 64px;
+            height: 64px;
+        }
+
+        main.cards section.card img{
+            width: 100%;
+        }
+        main.cards section.card h3{
+            margin: 16px 0;
+            font-size: 100%;
+        }
+        main.cards section.card span{
+            font-weight: 300;
+            max-height: 240px;
+            font-size: 80%;
+            margin-bottom: 16px;
+        }
+        main.cards section.card button{
+            padding: 0.5rem 1rem;
+            text-transform: uppercase;
+            border-radius: 32px;
+            border: 0;
+            cursor: pointer;
+            font-size: 80%;
+            background-color: #FF6400;
+            color: #DCDCDC;
+        }
+        main.cards section.card button:hover{
+            background-color: #e96a16;
+        }
+        @media screen and (max-width: 720px){
+            main.cards{
+                flex-direction: column;
+            }
+            main.cards section.card{
+                margin-left: 0;
+                margin-bottom: 32px;
+            }
+            main.cards section.card:last-child{
+                margin-bottom: 0;
+            }
+        }
+        .txt{
+            font-family: Arial, Helvetica, sans-serif;
+            color: #FF6400;
+            padding: 20px;
+            background-color: #353839;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="txt">
+        <img src="/images/logo.png" height="100px" width="100px" alt="logo">
+        <h1>Nossos Planos:</h1>
+        
+    </div>
+    <main class="cards">
+        <section class="card">
+            <div class="icon">
+                <img src="/images/card.png" alt="card">
+            </div>
+            <h3>20 MEGA</h3>
+            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, quisquam fugiat! Praesentium rem, id sint magnam laudantium repellendus temporibus minus tempore aliquam iste maxime nisi fugit asperiores facilis totam quaerat.</span>
+            <button>Assinar</button>
+        </section>
+        <section class="card">
+            <div class="icon">
+                <img src="/images/card.png" alt="card">
+            </div>
+            <h3>30 MEGA</h3>
+            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, quisquam fugiat! Praesentium rem, id sint magnam laudantium repellendus temporibus minus tempore aliquam iste maxime nisi fugit asperiores facilis totam quaerat.</span>
+            <button>Assinar</button>  
+        </section>
+        <section class="card">
+            <div class="icon">
+                <img src="/images/card.png" alt="card">
+            </div>
+            <h3>50 MEGA</h3>
+            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, quisquam fugiat! Praesentium rem, id sint magnam laudantium repellendus temporibus minus tempore aliquam iste maxime nisi fugit asperiores facilis totam quaerat.</span>
+            <button>Assinar</button>
+        </section>
+        <section class="card">
+            <div class="icon">
+                <img src="/images/card.png" alt="card">
+            </div>
+            <h3>100 MEGA</h3>
+            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, quisquam fugiat! Praesentium rem, id sint magnam laudantium repellendus temporibus minus tempore aliquam iste maxime nisi fugit asperiores facilis totam quaerat.</span>
+            <button>Assinar</button>
+        </section>
+        <section class="card">
+            <div class="icon">
+                <img src="/images/card.png" alt="card">
+            </div>
+            <h3>500 MEGA</h3>
+            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, quisquam fugiat! Praesentium rem, id sint magnam laudantium repellendus temporibus minus tempore aliquam iste maxime nisi fugit asperiores facilis totam quaerat.</span>
+            <button>Assinar</button>  
+        </section>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IHC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: #DCDCDC;
+            width: 100%;
+            margin: 0 auto;
+        }
+        main{
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+        }
+        ul{
+            padding: 0px!important;
+        }
+        .principal{
+            background-color: #353839;
+            width: 100%;
+            height: 80px;
+        }
+        .redes{
+            width: 20%;
+            float: right;
+        }
+        .redes ul li{
+            display: inline-block;
+            list-style: none;
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+        .logo{
+            float: left;
+        }
+        ul img{
+            height: 30px;
+            width: 30px;
+        }
+        .secundario{
+            background-color: white;
+            height: 80px;
+            border-bottom:#353839 3px solid;
+            padding: 30px;
+        }
+        .menu{
+            width: 70%;
+            float: left;
+        }
+        .menu ul{
+            padding: 30px;
+        }
+        .menu ul li{
+            display: inline-block;
+            list-style: none;
+        }
+        .menu ul li a{
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 20px;
+            color: #FF6400;
+            margin-left: 15px;
+        }
+        .busca{
+            width: 30%;
+            float: right;
+            text-align: center;
+        }
+        .busca input{
+            background-image: url("./images/lupa.png");
+            background-repeat: no-repeat;
+            background-position: right;
+            height: 36px;
+            padding: 12px;
+            width: 190px;
+            
+        }
+        .col-100{
+            width: 100%;
+
+            position: relative;
+            float: left;
+        }
+        urls{
+             height: 80px;
+             
+        }
+        .QNS{
+            color: #FF6400;
+            margin-top: 10px;
+            position: relative;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header class="principal">
+        <main class="col-100 urls">
+            <div>
+                <div class="logo">
+                    <img src="./images/logo.png" height="80px" width="80px" alt="logo">
+                </div>
+                <div class="redes">
+                    <ul>
+                        <li><a href="#"><img src="./images/face.png" alt="Facebook"></a></li>
+                        <li><a href="#"><img src="./images/tt.png" alt="Twitter"></a></li>
+                        <li><a href="#"><img src="./images/zap.png" alt="WhatsApp"></a></li>
+                </ul>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </header>
+    <main>
+        <div class="secundario">
+            <div class="menu">
+                <ul>
+                    <li><a href="./planos.html" target="_blank">Planos</a></li>
+                    <li><a href="./faleconosco.html" target="_blank">Fale Conosco</a></li>
+                    <li><a href="./contatos.html" target="_blank">Contatos</a></li>
+                </ul>
+            </div>
+                <div class="busca">
+                    <input type="text" placeholder="Não está funcional">
+            </div>
+        </div>
+    </main>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/fibra.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/world.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/cabos.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="QNS">
+          <h2>Quem nós somos?</h2>
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto fugit, vitae mollitia placeat laborum, dignissimos perferendis aut delectus aliquam laudantium veritatis ad incidunt reiciendis explicabo porro. Deserunt est quasi nam?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum provident maiores esse eligendi assumenda eaque, inventore, animi sequi omnis nisi beatae voluptatum magnam corrupti dolorum quod quaerat amet voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem necessitatibus, cupiditate maiores libero officiis quasi nostrum dolorem. Cum suscipit odit reprehenderit eos doloribus numquam at, architecto, a sequi, ut sit?</h3>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

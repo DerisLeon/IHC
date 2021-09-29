@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: #DCDCDC;
+            background: #DCDCDC;
+        }
+        .tela-login{
+            background-color: #353839;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 60px;
+            border-radius: 15px;
+            color:#FF6400;
+            text-align: center;
+        }
+        input{
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+        }
+        button{
+            background-color: #FF6400;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            color: #DCDCDC;
+            font-size: 20px;
+        }
+        button:hover{
+            background-color: #e96a16;
+            cursor: pointer;
+        }
+        img{
+            
+            height: 100px;
+            width: 100px;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-top: 0%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="tela-login">
+        <img src="./images/logo.png" alt="logo">
+        <h1>Login</h1>
+        <br><br>
+        <input type="text" placeholder="Usuário">
+        <br><br>
+        <input type="password" placeholder="Senha">
+        <br><br>
+        <button>Entrar</button>
+    </div>
+</body>
+</html>
